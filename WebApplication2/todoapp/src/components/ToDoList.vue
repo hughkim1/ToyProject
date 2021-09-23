@@ -23,18 +23,28 @@
                         </thead>
                         <tbody>
                             <todo-row v-for="todo in todos"
-                                     :key="todo.id"
-                                     :todo1 ="todo"
+                                      :key="todo.id"
+                                      :todo1="todo"
                                       @details="viewTodoDetail"
                                       @update="updateTodo"
-                                      @delete="deleteTodo"
-                                      />
+                                      @delete="deleteTodo" />
                         </tbody>
                     </table>
                 </div>
             </b-col>
         </b-row>
 
+        <b-modal ref="deleteConfirmModal"
+                 title="Confirm your action"
+                 @ok="onDeleteConfirm"
+                 @hide="onDeleteModalHide">
+            <p class="my-4">Are you sure you want to delete this To Do permanently?</p>
+        </b-modal>
+        <b-modal ref="alertModal"
+                 :title="alertModalTitle"
+                 :ok-only="true">
+            <p class="my-4">{{ alertModalContent }}</p>
+        </b-modal>
     </div>
 </template>
 
@@ -48,26 +58,45 @@
         },
         data(){
             return {
-                todos: []
+                todos: [],
+                selectedTodoId: null,
+                alertModalTitle: '',
+                alertModalContent:'',
             };
         },
         created() {
-            ToDoService.getAll().then((response) => {
-                this.todos = response.data;
-            });
+            this.fetchTodos();
         },
         methods: {
+            fetchTodos() {
+                ToDoService.getAll().then((response) => {
+                    this.todos = response.data;
+                });
+            },
             viewTodoDetail(todoId) {
-                console.log("ffew")
                 this.$router.push({ name: 'ToDoDetails', params: { id: todoId } });
             },
             updateTodo(todoId) {
-                console.log("fe")
                 ToDoService.update(todoId);
             },
             deleteTodo(todoId) {
-                console.log("fefew")
-                ToDoService.delete(todoId);
+                this.selectedTodoId = todoId;
+                this.$refs.deleteConfirmModal.show();
+            },
+            onDeleteConfirm() {
+                ToDoService.delete(this.selectedTodoId).then(() => {
+                    this.alertModalTitle = 'Successfully';
+                    this.alertModalContent = 'Successfully deleted To Do';
+                    this.$refs.alertModal.show();
+                    this.fetchTodos();
+                }).catch((error) => {
+                    this.alertModalTitle = 'Error';
+                    this.alertModalContent = error.response.data;
+                    this.$refs.alertModal.show();
+                });
+            },
+            onDeleteModalHide() {
+                this.selectedTodoId = null;
             }
         }
         }
