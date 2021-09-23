@@ -5,6 +5,7 @@ import TableSample from '@/components/TableSample.vue';
 import NotFound from '@/components/NotFound';
 import ToDoList from '@/components/ToDoList';
 import ToDoDetails from '@/components/ToDoDetails';
+import ToDoCreate from '@/components/ToDoCreate';
 Vue.use(VueRouter);
 
 export default new VueRouter({
@@ -31,9 +32,14 @@ export default new VueRouter({
             component: ToDoList
         },
         {
+            path: '/ToDo/Create',
+            name: 'ToDoCreate',
+            component: ToDoCreate
+        },
+        {
             path: '/ToDo/:id',
             name: 'ToDoDetails',
             component: ToDoDetails
-        }
+        },
     ],
 })

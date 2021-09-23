@@ -93,3 +93,4 @@ C:\Users\Desktop-10\source\repos\WebApplication2\WebApplication2\obj\Debug\netco
 C:\Users\Desktop-10\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp3.1\ToyProject1.dll
 C:\Users\Desktop-10\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp3.1\ToyProject1.pdb
 C:\Users\Desktop-10\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp3.1\ToyProject1.genruntimeconfig.cache
+C:\Users\Desktop-10\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp3.1\ToyProject1.csproj.AssemblyReference.cache

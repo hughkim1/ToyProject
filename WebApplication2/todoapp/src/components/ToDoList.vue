@@ -4,7 +4,7 @@
         <b-row>
             <b-col md="2"
                    offset-md="10">
-                <a href="#">Create To Do</a>
+                <router-link :to="{ name: 'ToDoCreate' }">Create To Do</router-link>
             </b-col>
         </b-row>
         <br>
