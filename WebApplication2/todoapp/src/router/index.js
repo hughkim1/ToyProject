@@ -6,6 +6,7 @@ import NotFound from '@/components/NotFound';
 import ToDoList from '@/components/ToDoList';
 import ToDoDetails from '@/components/ToDoDetails';
 import ToDoCreate from '@/components/ToDoCreate';
+import ToDoUpdate from '@/components/ToDoUpdate';
 Vue.use(VueRouter);
 
 export default new VueRouter({
@@ -35,6 +36,11 @@ export default new VueRouter({
             path: '/ToDo/Create',
             name: 'ToDoCreate',
             component: ToDoCreate
+        },
+        {
+            path: '/ToDo/Update/:id',
+            name: 'ToDoUpdate',
+            component: ToDoUpdate
         },
         {
             path: '/ToDo/:id',

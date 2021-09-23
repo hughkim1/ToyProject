@@ -77,7 +77,7 @@
                 this.$router.push({ name: 'ToDoDetails', params: { id: todoId } });
             },
             updateTodo(todoId) {
-                ToDoService.update(todoId);
+                this.$router.push({ name: 'ToDoUpdate', params: { id: todoId } });
             },
             deleteTodo(todoId) {
                 this.selectedTodoId = todoId;
