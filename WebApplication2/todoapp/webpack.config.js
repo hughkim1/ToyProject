@@ -12,9 +12,9 @@ module.exports = {
     // Path and filename of your result bundle.
     // Webpack will bundle all JavaScript into this file
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        publicPath: '',
-        filename: 'bundle.js'
+        path: path.join(__dirname, 'build/js'),
+        publicPath: '/build/js', // instead of publicPath: '/build/' 
+        filename: '[name].js'
     },
     module: {
         rules: [
@@ -50,6 +50,7 @@ module.exports = {
     resolve: {
         alias: {
             vue$: "vue/dist/vue.runtime.esm.js",
+            "@": path.resolve(__dirname, "./src")
         },
         extensions: ["*", ".js", ".vue", ".json"],
     },
@@ -58,5 +59,11 @@ module.exports = {
     // Depending on mode Webpack will apply different things
     // on the final bundle. For now, we don't need production's JavaScript 
     // minifying and other things, so let's set mode to development
-    mode: 'development'
+    
+    devServer: {
+        contentBase: path.join(__dirname, 'dist'),
+        historyApiFallback: true,
+        inline: true,
+        port: 8080
+    },
 };
