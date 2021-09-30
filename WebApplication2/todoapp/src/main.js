@@ -10,6 +10,7 @@ Vue.config.productionTip = false
 Vue.use(BootstrapVue);
 Axios.defaults.baseURL = "http://localhost:5000/api";
 
+
 new Vue({
     el: '#app',
     router: router,

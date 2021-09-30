@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Desktop-10\\source\\repos\\WebApplication2\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj": {}
+    "C:\\Users\\Desktop-10\\source\\repos\\WebApplication2\\WebApplication2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Desktop-10\\source\\repos\\WebApplication2\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj": {
+    "C:\\Users\\Desktop-10\\source\\repos\\WebApplication2\\WebApplication2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Desktop-10\\source\\repos\\WebApplication2\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
-        "projectName": "ToDoAPI",
-        "projectPath": "C:\\Users\\Desktop-10\\source\\repos\\WebApplication2\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Desktop-10\\source\\repos\\WebApplication2\\WebApplication2.csproj",
+        "projectName": "WebApplication2",
+        "projectPath": "C:\\Users\\Desktop-10\\source\\repos\\WebApplication2\\WebApplication2.csproj",
         "packagesPath": "C:\\Users\\Desktop-10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Desktop-10\\source\\repos\\WebApplication2\\ToDoAPI\\ToDoAPI\\obj\\",
+        "outputPath": "C:\\Users\\Desktop-10\\source\\repos\\WebApplication2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Desktop-10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,36 +37,18 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
-            "EntityFramework": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[6.4.4, )"
+              "version": "[2.1.1, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.6.3, )"
             },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[5.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.18, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.18, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "ShopifySharp": {
+            "shopifysharp": {
               "target": "Package",
               "version": "[5.13.1, )"
             }

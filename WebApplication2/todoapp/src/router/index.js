@@ -7,6 +7,7 @@ import ToDoList from '@/components/ToDoList';
 import ToDoDetails from '@/components/ToDoDetails';
 import ToDoCreate from '@/components/ToDoCreate';
 import ToDoUpdate from '@/components/ToDoUpdate';
+import Products from '@/components/ProductList';
 Vue.use(VueRouter);
 
 export default new VueRouter({
@@ -46,6 +47,11 @@ export default new VueRouter({
             path: '/ToDo/:id',
             name: 'ToDoDetails',
             component: ToDoDetails
+        },
+        {
+            path: '/ProductsList',
+            name: 'ProductList',
+            component: Products
         },
     ],
 })

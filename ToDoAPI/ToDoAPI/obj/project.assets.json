@@ -1082,6 +1082,20 @@
           }
         }
       },
+      "ShopifySharp/5.13.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "microsoft.extensions.primitives": "1.1.0",
+          "newtonsoft.json": "10.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.4/ShopifySharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/ShopifySharp.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4413,6 +4427,19 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "ShopifySharp/5.13.1": {
+      "sha512": "C4IQFOnLZ3soEKRm1q9qG0DfapjSxK+3Xsu9TiTRMjLhc8d6s812avORMnGdYQqLy7eQaoUYAdUqJTV9GBc5DQ==",
+      "type": "package",
+      "path": "shopifysharp/5.13.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ShopifySharp.dll",
+        "lib/netstandard1.4/ShopifySharp.dll",
+        "shopifysharp.5.13.1.nupkg.sha512",
+        "shopifysharp.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -8790,7 +8817,8 @@
       "Microsoft.EntityFrameworkCore.InMemory >= 5.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.18",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.18",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5",
+      "ShopifySharp >= 5.13.1"
     ]
   },
   "packageFolders": {
@@ -8799,11 +8827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Desktop-10\\source\\repos\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Desktop-10\\source\\repos\\WebApplication2\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
       "projectName": "ToDoAPI",
-      "projectPath": "C:\\Users\\Desktop-10\\source\\repos\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
+      "projectPath": "C:\\Users\\Desktop-10\\source\\repos\\WebApplication2\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
       "packagesPath": "C:\\Users\\Desktop-10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Desktop-10\\source\\repos\\ToDoAPI\\ToDoAPI\\obj\\",
+      "outputPath": "C:\\Users\\Desktop-10\\source\\repos\\WebApplication2\\ToDoAPI\\ToDoAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Desktop-10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8857,6 +8885,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.5, )"
+          },
+          "ShopifySharp": {
+            "target": "Package",
+            "version": "[5.13.1, )"
           }
         },
         "imports": [

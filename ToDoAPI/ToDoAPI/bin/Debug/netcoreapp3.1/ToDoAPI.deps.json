@@ -37,6 +37,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.18",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.18",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.5",
+          "ShopifySharp": "5.13.1",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1240,6 +1241,22 @@
             "assetType": "native",
             "fileVersion": "4.6.25512.1"
           }
+        }
+      },
+      "ShopifySharp/5.13.1": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Microsoft.Extensions.Primitives": "5.0.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.4/ShopifySharp.dll": {
+            "assemblyVersion": "5.13.1.0",
+            "fileVersion": "5.13.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.4/ShopifySharp.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -4376,6 +4393,13 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "ShopifySharp/5.13.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C4IQFOnLZ3soEKRm1q9qG0DfapjSxK+3Xsu9TiTRMjLhc8d6s812avORMnGdYQqLy7eQaoUYAdUqJTV9GBc5DQ==",
+      "path": "shopifysharp/5.13.1",
+      "hashPath": "shopifysharp.5.13.1.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

@@ -4,15 +4,15 @@
         <td>{{ todo1.toDoName }}</td>
         <td>
             <b-button variant="default"
-        @click="onDetailsClick">Details</b-button>
+                      @click="onDetailsClick">Details</b-button>
         </td>
         <td>
             <b-button variant="success"
-        @click="onUpdateClick">Update</b-button>
+                      @click="onUpdateClick">Update</b-button>
         </td>
         <td>
             <b-button variant="danger"
-        @click="onDeleteClick">Delete</b-button>
+                      @click="onDeleteClick">Delete</b-button>
         </td>
     </tr>
 </template>

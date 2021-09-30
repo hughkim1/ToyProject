@@ -13,7 +13,12 @@ namespace ToDoAPI
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Running program lfefef");
+            var test = new CodeFile();
+            test.Main();
             CreateHostBuilder(args).Build().Run();
+            
+
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

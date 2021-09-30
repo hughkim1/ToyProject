@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W7S5VPjY24wd6enNpmUHmE3TMuMTMnd1HiMuGliJkW1ibu2YplAavZxxcWKrZgB8U0CzfWAATBwU63L8Q2l31w==",
+  "dgSpecHash": "0O4Z4pCM8z9sbOBzaPvLYUAuIBsu85V4d5dcjqvk8zws2V8eCsPkbbJZphEsJ97xDzTTQdRyi1rpkusV992T1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Desktop-10\\source\\repos\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
+  "projectFilePath": "C:\\Users\\Desktop-10\\source\\repos\\WebApplication2\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Desktop-10\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Desktop-10\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
@@ -75,6 +75,7 @@
     "C:\\Users\\Desktop-10\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Desktop-10\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Desktop-10\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Desktop-10\\.nuget\\packages\\shopifysharp\\5.13.1\\shopifysharp.5.13.1.nupkg.sha512",
     "C:\\Users\\Desktop-10\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\Desktop-10\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\Desktop-10\\.nuget\\packages\\system.codedom\\4.7.0\\system.codedom.4.7.0.nupkg.sha512",

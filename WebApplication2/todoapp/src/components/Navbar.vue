@@ -5,7 +5,7 @@
         <b-navbar-brand :to="{name:'Home'}">Home</b-navbar-brand>
         <b-navbar-nav>
             <b-nav-item href="/ToDo/List">To Do List</b-nav-item>
-            <b-nav-item href="#">Temp Page</b-nav-item>
+            <b-nav-item href="/ProductsList">Product Page</b-nav-item>
         </b-navbar-nav>
     </b-navbar>
 </template>

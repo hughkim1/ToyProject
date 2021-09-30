@@ -94,3 +94,8 @@ C:\Users\Desktop-10\source\repos\WebApplication2\WebApplication2\obj\Debug\netco
 C:\Users\Desktop-10\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp3.1\ToyProject1.pdb
 C:\Users\Desktop-10\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp3.1\ToyProject1.genruntimeconfig.cache
 C:\Users\Desktop-10\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp3.1\ToyProject1.csproj.AssemblyReference.cache
+C:\Users\Desktop-10\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp3.1\System.Web.Cors.dll
+C:\Users\Desktop-10\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\Desktop-10\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\Desktop-10\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp3.1\System.Web.Http.Cors.dll
+C:\Users\Desktop-10\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
